@@ -1,0 +1,10 @@
+[settings]
+TOKEN = 999999999:AAAAAAAAAAAAAAAAAAAAAAAA
+admins = 123123
+WKHTMLTOPDF_PATH = C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe
+[db]
+user = postgres
+password = postgres
+database = my_database
+host = 127.0.0.1
+port = 5432

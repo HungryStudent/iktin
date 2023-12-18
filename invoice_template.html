@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Накладная</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Накладная {{ invoice_id }}</h1>
+
+<table>
+  <tr>
+    <th>Описание</th>
+    <td>{{ description }}</td>
+  </tr>
+  <tr>
+    <th>Вес</th>
+    <td> {{ weight }}</td>
+  </tr>
+  <tr>
+    <th>Размер</th>
+    <td> {{ size }}</td>
+  </tr>
+  <tr>
+    <th>Адрес отправления</th>
+    <td> {{ sending_address }}</td>
+  </tr>
+  <tr>
+    <th>Адрес получения</th>
+    <td> {{ receiving_address }}</td>
+  </tr>
+  <tr>
+    <th>Способ оплаты</th>
+    <td> {{ payment_method }}</td>
+  </tr>
+</table>
+
+</body>
+</html>
